@@ -1,0 +1,70 @@
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #6e160c;
+    position: absolute;
+    top: 146px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.menu-barras {
+    display: flex;
+    z-index: 999;
+}
+
+#icone {
+    color: #6e160c;;
+    font-size: 30px;
+}
+
+.menu-header {
+    width: 60%;
+}
+
+.conteudo-sobre {
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-sobre {
+    width: 80%;
+}
+
+.texto-sobre {
+    width: 80%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-between;
+}
+
+.conteudo-info {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo-endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    justify-content: space-between;
+}
+
+.conteudo-endereco h2 {
+    align-self: flex-start;
+}
+
+.texto-endereco p {
+    width: 100%;
+}
+
+.mapa {
+    position: unset;
+    width: 400px;
+}
